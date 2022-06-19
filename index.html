@@ -26,13 +26,61 @@
                         <a class="navbar-brand" href="#">Log</a> <!-- navbar-expand-lg -->
                     </div>
                     <ul class="nav navbar-nav d-inline">
-                        <li class="d-inline"><a href="#">Collaborateurs</a></li>
+                        <li class="active d-inline"><a href="#">Collaborateurs</a></li>
                         <li class="d-inline"><a href="#">Statistiques</a></li>
                         <li class="d-inline"><a href="#">Activités</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <main>
+            <button class="float-right" submit="#">Ajouter un nouveau collaborateur</button>
+            <h1>Les Collaborateurs</h1>
+            <div>
+                <div class="row">
+                    <div class="col-8">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-7">
+                                    <label class="float-right" for="searchname">Rechercher un nom et prémon commençant par : </label>
+                                </div>
+                                <div class="col">
+                                    <input type="" id="searchname">
+                                </div>
+                                <div class="col">
+                                    <button submit="#">Rechercher</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <input type="checkbox" name="optiondisable" id="optiondisable">
+                        <label for="optiondisable">Voir les collaborateurs désactivés</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-7">
+                                <label class="float-right" for="filter">Filtrer par département : </label>
+                            </div>
+                            <div class="col">
+                                <input list="departement" id="filter">
+                                <datalist id="departement">
+                                    <option value="Comptabilité">
+                                    <option value="Ressources Humaines">
+                                    <option value="Informatique">
+                                </datalist>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <aside>
+        </aside>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
