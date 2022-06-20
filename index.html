@@ -14,7 +14,7 @@
     <!-- TODO -->
     <!-- Barre  de  navigation qui se replie pour les petits écrans-->
     <div class="pos-f">
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark p-0">
             <button class="navbar-toggler d-sm-block d-md-none" type="button" data-toggle="collapse"
                 data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="true" aria-label="Toggle navigation">
@@ -26,9 +26,9 @@
                         <a class="navbar-brand" href="#">Log</a> <!-- navbar-expand-lg -->
                     </div>
                     <ul class="nav navbar-nav d-inline">
-                        <li class="active d-inline"><a href="#">Collaborateurs</a></li>
-                        <li class="d-inline"><a href="#">Statistiques</a></li>
-                        <li class="d-inline"><a href="#">Activités</a></li>
+                        <li class="active d-inline"><a href="#" class="text-light">Collaborateurs</a></li>
+                        <li class="d-inline"><a href="#" class="text-light">Statistiques</a></li>
+                        <li class="d-inline"><a href="#" class="text-light">Activités</a></li>
                     </ul>
                 </div>
             </div>
@@ -98,6 +98,7 @@
     <script src="./js/jquery-1.9.1.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/modal.js"></script>
     <script>
         $(function () {
             $("#cards").load("./lister/");

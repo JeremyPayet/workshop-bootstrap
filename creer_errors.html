@@ -12,7 +12,7 @@
 
 <body>
     <div class="pos-f">
-        <nav class="navbar navbar-dark bg-dark p-0  ">
+        <nav class="navbar navbar-dark bg-dark p-0">
             <button class="navbar-toggler d-sm-block d-md-none" type="button" data-toggle="collapse"
                 data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="true" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
             <h1>Nouveau Collaborateur</h1>
             <!--<form class="p-5 w-75" action="javascript:;" onsubmit="valideRecherche(this)" id="formcollab"> -->
 
-            <form class="p-5 w-75" action="#" onsubmit="valideRecherche()" id="formcollab">
+            <form class="p-5 w-75"  onsubmit="valideRecherche()" id="formcollab">
                 <div class="row">
                     <div class="col">
                         <label for="name">
@@ -44,6 +44,7 @@
                     </div>
                     <div class="col-6">
                         <input type="text" id="name" class="w-100">
+                        <p class="text-danger m-0">Le nom est obligatoire</p>
                     </div>
                 </div>
                 <div class="row">
@@ -54,6 +55,7 @@
                     </div>
                     <div class="col-6">
                         <input type="text" id="surname" class="w-100">
+                        <p class="text-danger m-0">Le prénom est obligatoire</p>
                     </div>
                 </div>
                 <div class="row">
@@ -64,6 +66,7 @@
                     </div>
                     <div class="col-6">
                         <input type="text" id="birthdate" class="w-100">
+                        <p class="text-danger m-0">La date de naissance est obligatoire</p>
                     </div>
                 </div>
                 <div class="row">
@@ -74,6 +77,7 @@
                     </div>
                     <div class="col-6">
                         <input type="textarea" id="adress" class="h1 w-100">
+                        <p class="text-danger m-0">L'adresse est obligatoire</p>
                     </div>
                 </div>
                 <div class="row">
@@ -84,6 +88,7 @@
                     </div>
                     <div class="col-6">
                         <input type="text" id="social" class="w-100">
+                        <p class="text-danger m-0">Le numéro de sécurité sociale est obligatoire</p>
                     </div>
                 </div>
                 <div class="row">
